@@ -43,7 +43,7 @@
     <div class="detail">
         <div class="left">                              
             <img class="avatar" src="resources/images/<?php echo $person['avatar']; ?>">
-            <div class="stats" style="background-color: yellowgreen">
+            <div class="stats" style="background-color: <?php echo $person['color']?>">
                 <ul class="fa-ul">
                     <li><span class="fa-li"><i class="fas fa-heart"></i></span> <?php echo $person ['health']?></li>
                     <li><span class="fa-li"><i class="fas fa-fist-raised"></i></span> <?php echo $person ['attack']?></li>
